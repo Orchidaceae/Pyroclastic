@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(include)
 include_directories(include/glfw)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp debug_vulkan.h)
 add_executable(Pyroclastic ${SOURCE_FILES})
 
 if(WIN32)
